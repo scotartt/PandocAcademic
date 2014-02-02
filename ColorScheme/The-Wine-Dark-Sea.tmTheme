@@ -12,7 +12,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#22222a</string>
+				<string>#151515</string>
 				<key>caret</key>
 				<string>gold</string>
 				<key>foreground</key>
@@ -21,9 +21,9 @@
 				<key>invisibles</key>
 				<string>gainsboro</string> 
 				<key>lineHighlight</key>
-				<string>slateblue</string>
+				<string>#333344</string>
 				<key>selection</key>
-				<string>blueviolet</string>
+				<string>crimson</string>
 			</dict>
 		</dict>
 
@@ -35,7 +35,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>darkseagreen</string>
+				<string>#aaaaaa</string>
 			</dict>
 			<!-- a comment -->
 		</dict>
@@ -62,11 +62,11 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#CCDDFF</string>
+				<string>steelblue</string>
 			</dict>
 		</dict>
 
-		<dict>
+		<dict id="hellotherestring99">
 			<key>name</key>
 			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
 			<key>scope</key>
@@ -76,7 +76,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#E78C45</string>
+				<string>orangered</string>
 			</dict>
 		</dict>
 
@@ -90,21 +90,34 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#E7C547</string>
+				<string>darkorange</string>
 			</dict>
 		</dict>
 		
 		<dict>
 			<key>name</key>
-			<string>String, Symbols, Inherited Class, Markup Heading</string>
+			<string>Symbols, Inherited Class, Markup Heading</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class</string>
+			<string>constant.other.symbol, entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#B9CA4A</string>
+				<string>powderblue</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>lemonchiffon</string>
 			</dict>
 		</dict>
 		
@@ -116,7 +129,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#70C0B1</string>
+				<string>steelblue</string>
 			</dict>
 		</dict>
 		
@@ -263,12 +276,12 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>skyblue</string>
+				<string>powderblue</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Italic text</string>
+			<string>Markup Italic text</string>
 			<key>scope</key>
 			<string>punctuation.definition.italic.markdown, balise.pandoc</string>
 			<key>settings</key>
@@ -276,12 +289,12 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>lightyellow</string>
+				<string>ivory</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Bold text</string>
+			<string>Markup Bold text</string>
 			<key>scope</key>
 			<string>punctuation.definition.bold.markdown</string>
 			<key>settings</key>
@@ -289,12 +302,12 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>lightyellow</string>
+				<string>ivory</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Blockquotes</string>
+			<string>Markup Blockquotes</string>
 			<key>scope</key>
 			<string>quote.pandoc</string>
 			<key>settings</key>
@@ -315,12 +328,12 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>grey</string>
+				<string>powderblue</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function, Special Method, Block Level</string>
+			<string>Pandoc Citation @cite</string>
 			<key>scope</key>
 			<string>citation.pandoc</string>
 			<key>settings</key>
@@ -328,12 +341,12 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>lightyellow</string>
+				<string>steelblue</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Footnotes</string>
+			<string>Pandoc Footnotes [^fn1]</string>
 			<key>scope</key>
 			<string>footnote.num.pandoc, footnote.text.pandoc, footnote.delim.pandoc</string>
 			<key>settings</key>
@@ -341,19 +354,19 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>grey</string>
+				<string>powderblue</string>
 			</dict>
 		</dict>
 
 		<dict>
 			<key>name</key>
-			<string>Inline footnote</string>
+			<string>Pandoc Inline Footnote ^[inline comment]</string>
 			<key>scope</key>
 			<string>note.pandoc</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>darkgrey</string>
+				<string>powderblue</string>
 			</dict>
 		</dict>
 		<dict>
@@ -366,7 +379,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>aliceblue</string>
+				<string>ivory</string>
 			</dict>
 		</dict>
 		<dict>
@@ -379,7 +392,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>olivedrab</string>
+				<string>steelblue</string>
 			</dict>
 		</dict>
 		<dict>
@@ -390,7 +403,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>olivedrab</string>
+				<string>steelblue</string>
 			</dict>
 		</dict>
 
@@ -404,7 +417,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>olivedrab</string>
+				<string>steelblue</string>
 			</dict>
 		</dict>
 		<dict>
@@ -417,7 +430,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>lightyellow</string>
+				<string>ivory</string>
 			</dict>
 		</dict>
 
@@ -431,7 +444,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>red</string>
+				<string>ivory</string>
 			</dict>
 		</dict>
 		<dict>
@@ -442,7 +455,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>yellow</string>
+				<string>ivory</string>
 			</dict>
 		</dict>
 		-->
