@@ -12,7 +12,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#151515</string>
+				<string>#1e211e</string>
 				<key>caret</key>
 				<string>gold</string>
 				<key>foreground</key>
@@ -23,7 +23,7 @@
 				<key>lineHighlight</key>
 				<string>#333344</string>
 				<key>selection</key>
-				<string>crimson</string>
+				<string>dimgrey</string>
 			</dict>
 		</dict>
 
@@ -66,19 +66,33 @@
 			</dict>
 		</dict>
 
-		<dict id="hellotherestring99">
+		<dict>
 			<key>name</key>
 			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
 			<key>scope</key>
-			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit</string>
+			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>orangered</string>
+				<string>lavender</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded, keyword.other.unit</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>lavender</string>
+			</dict>
+		</dict>
+
 
 		<dict>
 			<key>name</key>
@@ -144,7 +158,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#7AA6DA</string>
+				<string>lightsteelblue</string>
 			</dict>
 		</dict>
 
@@ -158,7 +172,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#C397D8</string>
+				<string>yellowgreen</string>
 			</dict>
 		</dict>
 
